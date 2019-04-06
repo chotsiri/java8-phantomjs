@@ -1,12 +1,2 @@
-##Dev
+<strong>Java (JRE 8 JRE) with phantomjs 2.1.1 Dockefile</strong
 
-###Build
-    docker build -t java8jre-phantomjs:dev .
-
-
-###Run
-    docker run -it --name java8p java8jre-phantomjs:dev
-
-
-##Prod
-    docker tag java8jre-phantomjs:dev java8jre-phantomjs:1.0
